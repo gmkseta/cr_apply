@@ -29,5 +29,8 @@ _password = "password"
 python3 parser.py
 ```
 
+## 크롤러 쓰고나서 ps로 headless로 크롬 드라이버가 돌아가고있는지 확인 필수 , 돌아가면 죽여줘야함
 
-
+```bash
+pkill -9 -f chrome && pkill -9 -f Chrome
+```
