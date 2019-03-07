@@ -33,5 +33,5 @@ if __name__ == "__main__":
         driver.browser.close()
         print("error")
     finally:
-
+        driver.browser.close()
         print("end")
